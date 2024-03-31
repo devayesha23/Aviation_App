@@ -42,8 +42,8 @@ $historicalFlightData = historical($airline, $date, $flightNumber);
         <div class="flight-schedules">
             <ul>
                 <li>
-                    <b>Flight Number:</b> <?= $flight['flight']['iata'] ?><br>
-                    <b>Date:</b> <?= $flight['flight_date'] ?><br>
+                    <b>Flight Number:</b> <?= $flight['flight']['iata'] ?>
+                    <b>Date:</b> <?= $flight['flight_date'] ?>
                     <p><b>Departure Delay (min): </b> <?= htmlspecialchars($flight['departure']['delay']) ?></p>
                     <p><b>Arrival Delay (min): </b> <?= htmlspecialchars($flight['arrival']['delay']) ?></p>
                     <p><b>Departure Time:</b> <?= htmlspecialchars($flight['departure']['scheduled']) ?></p>
