@@ -122,6 +122,6 @@ $live_flights_data = getLiveFlightData();
     }
     ?>
 
-    <meta http-equiv="refresh" content="6000">
+    <meta http-equiv="refresh" content="60">
 </body>
 </html>
