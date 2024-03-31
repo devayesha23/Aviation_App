@@ -1,0 +1,159 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9d400;
+}
+
+
+
+h1{
+    text-align: center;
+    padding-top: 5px;
+    background-color: #f9d400;
+    color: #35486d;
+}
+.sidebar {
+    color: #f9d400;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #35486d;
+    padding-top: 20px;
+}
+
+.content {
+    margin-left: 250px; /* Adjust according to sidebar width */
+    
+}
+
+/* Sidebar styles */
+.sidebar h2 {
+    text-align: center;
+}
+
+.search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #007bff;
+    padding: 5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+.bar{
+    background-color: #007bff;
+    text-align: center;
+    padding: 20px;
+}
+
+.bar label {
+            display: inline-block;
+            /* width: 120px; */
+            font-weight: bold;
+        }
+        .bar input[type="text"],
+        .bar input[type="date"] {
+            width: 200px;
+            padding: 8px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .bar input[type="number"]{
+            width: 50px;
+            padding: 8px;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .bar button {
+            padding: 8px 20px;
+            color: #007bff;
+            background-color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .flight-schedules {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .flight-schedules ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .flight-schedules li {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .flight-schedules li:last-child {
+            border-bottom: none;
+        }
+        .flight-schedules p {
+            margin: 0;
+            line-height: 1.5;
+        }
+        .flight-schedules p b {
+            font-weight: bold;
+        }
+
+button:hover {
+    background-color: #00a6ff;
+    cursor: pointer;
+}
+
+
+
+
